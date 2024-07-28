@@ -194,6 +194,15 @@ class VehicleInfo(object):
                     "models/Callisto.param",
                 ],
             },
+            "Almodather": {
+                "model": "hexa:@ROMFS/models/Almodather.json",
+                "waf_target": "bin/arducopter",
+                "default_params_filename": [
+                    "default_params/copter.parm",
+                    "default_params/copter-hexa.parm",
+                    "models/Almodather.param",
+                ],
+            },
             "quad-can": {
                 "waf_target": "bin/arducopter",
                 "default_params_filename": ["default_params/copter.parm", "default_params/quad-can.parm"],
